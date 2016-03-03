@@ -8,9 +8,17 @@
 			<map>
 				<entry key="test" value="TestAction" />
 				<entry key="add_test" value="AddTestAction" />
+				<entry key="liuqian" value="LiuqianAction" />
+				<entry key="add_liuqian" value="AddLiuqianAction" />
+				<entry key="delete_liuqian" value="DeleteLiuqianAction" />
+				<entry key="update_liuqian" value="UpdateLiuqianAction" />
 			</map>
 		</property>
 	</bean>
 	<bean name="TestAction" class="test.wn.modules.TestAction" scope="request"/>
 	<bean name="AddTestAction" class="test.wn.modules.AddTestAction" scope="request"/>
+	<bean name="LiuqianAction" class="test.wn.modules.LiuqianAction" scope="request"/>
+	<bean name="AddLiuqianAction" class="test.wn.modules.AddLiuqianAction" scope="request"/>
+	<bean name="DeleteLiuqianAction" class="test.wn.modules.DeleteLiuqianAction" scope="request"/>
+	<bean name="UpdateLiuqianAction" class="test.wn.modules.UpdateLiuqianAction" scope="request"/>
 </beans>

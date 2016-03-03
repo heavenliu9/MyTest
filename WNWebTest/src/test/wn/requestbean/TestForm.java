@@ -8,6 +8,7 @@ import com.weinong.base.ParamDefined;
  * @Date 2016/3/1 17:36
  */
 public class TestForm implements JsonParam {
+
     @ParamDefined(label = "testId")
     private Integer id;
 
