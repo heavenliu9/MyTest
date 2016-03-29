@@ -14,6 +14,7 @@ public class TestConf {
 
     public TestConf() {
         System.out.println("刘乾");
+		System.out.println("陈闯");
     }
 
     public static void init() throws ConfigException, IOException {
