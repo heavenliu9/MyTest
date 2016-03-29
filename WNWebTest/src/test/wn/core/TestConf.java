@@ -18,6 +18,7 @@ public class TestConf {
     }
 
     public static void init() throws ConfigException, IOException {
+        System.out.println("刘乾 ~ ");
         test = new WNConfig("test", "test.ini");
     }
 
