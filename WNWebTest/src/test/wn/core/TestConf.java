@@ -13,12 +13,12 @@ public class TestConf {
     private static WNConfig test;
 
     public TestConf() {
+        System.out.println("刘乾");
     }
 
     public static void init() throws ConfigException, IOException {
         test = new WNConfig("test", "test.ini");
     }
-	谁拉进来的深加工及
 
     public static WNConfig test() {
         return test;
