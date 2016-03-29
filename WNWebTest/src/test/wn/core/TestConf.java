@@ -18,6 +18,7 @@ public class TestConf {
     public static void init() throws ConfigException, IOException {
         test = new WNConfig("test", "test.ini");
     }
+	谁拉进来的深加工及
 
     public static WNConfig test() {
         return test;
